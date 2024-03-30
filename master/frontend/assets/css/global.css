@@ -1,0 +1,30 @@
+:root {
+  /* Define your color theme and any other global styles here */
+  --background-color: #101010; /* Dark background for the app */
+  --cell-bg-color: #1e1e1e; /* Dark background for cells */
+  --text-color: #f8f8f2;
+  --button-bg-color: #1e1e1e;
+  --button-hover-color: #2e2e2e;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Consolas', 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+button {
+  background: var(--button-bg-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+}

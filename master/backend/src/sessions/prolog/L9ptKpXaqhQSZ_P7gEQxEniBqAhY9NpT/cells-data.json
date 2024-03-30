@@ -1,0 +1,1 @@
+{"cells":{"0":{"code":"% Facts\nmale(john).\nmale(james).\n\n% Rules\nbrother(X, Y) :- male(X), male(Y), X \\= Y.\n\n% Queries\n%? brother(john, Who).\n%? brother(james, Who).","lastModified":"2024-03-30T11:32:49.365Z"}}}

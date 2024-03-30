@@ -1,0 +1,1 @@
+{"cells":{"0":{"code":"% Facts about family members\nmale(john).\nfemale(jane).\nparent(john, mike).\nparent(jane, mike).\n\n% Query to test\n%? parent(john, Who).\n% .\n","lastModified":"2024-03-30T11:20:53.993Z"}}}

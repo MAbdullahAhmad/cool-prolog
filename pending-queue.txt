@@ -1,0 +1,56 @@
+<------------------------------------------------------->
+
+Help me make a project named "cool-prolog" with HTML, CSS, JS front-end (that we shall serve using serve -s command) and backend will be nodejs based. Do not generate any code untill I say.
+
+(do not gen)
+
+<------------------------------------------------------->
+
+Following is my directory structure:
+
+project/
+  backend/
+  frontend/
+
+we have to create a nodejs project in backend/ directory with following structure
+
+backend/
+  src/
+    controllers/
+      PrologController.js
+    routes/
+      api.js
+    app.js
+  node_modules/
+  package.json
+
+tell me 'npm' and 'mkdir' commands to create directory structure and install dependencies.
+Also add cors and Controller functionality. Use 'tau-prolog' to execute prolog queries in controller. Make sure to add following two routes:
+
+- /sync : to sync connection and make sure everything is working right. This method should return success true in json
+- /exec : executes a string given in request . string may have many prolog rules, or queries. and it should return result string with all the outputs . if there are many outputs, use '\n' between them
+
+<------------------------------------------------------->
+
+Now let us work on html, css and js. We shall not call api yet, let us just focus on making design first.
+In pasted screenshot, there is an exmaple of jupyter notebook with python code.
+In our html, css, js design, I do not want to write python. But i want to write Prolog there.
+We do not need any colors for that as well, however a good console type of font will be great that we can add from google fonts.
+
+With each cell, there should be a div below for results. And on left side of cell, add 'run' and 'delete' icons. There should always be a 'Create' button in center when pressed it adds a new cell and focus on input.
+
+I have created a directory frontend/ follow following directory structure:
+
+frontend/
+  assets/
+    css/
+      global.css  # for global styling. like body, color theme in :root variables, etc
+      fonts.css   # to import fonts
+      cool-prolog.css # for cells styling
+    js/
+      cool-prolog.js
+  index.html
+
+Give me mkdir and touch commands to create directories and files.
+
+<------------------------------------------------------->
