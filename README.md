@@ -69,7 +69,7 @@ npm start
 
 ### 4. Open Project
 
-Noe open following url in browser
+Now open following url in browser
 
 [http://localhost:3000](http://localhost:3000)
 
